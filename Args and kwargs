@@ -1,0 +1,7 @@
+def single_prix_fixe_order(appetizer, *entrees, sides='Default Side', **dessert_scoops):
+    print("Appetizer:", appetizer)
+    print("Entrees:", entrees)
+    print("Sides:", sides)
+    print("Dessert Scoops:", dessert_scoops)
+
+single_prix_fixe_order('Baby Beets', 'Salmon', 'Scallops', sides='Mashed Potatoes', dessert_scoops={'Vanilla': 1, 'Cookies and Cream': 2})
